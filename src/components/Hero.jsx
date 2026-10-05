@@ -55,7 +55,7 @@ export default function Hero() {
             Reliable data for <span className="grad">informed decisions</span>
           </h1>
           <p className="lead">
-            DATAGENIUS is a highly respected independent management advisory firm. We provide
+            FUTURIS is a highly respected independent management advisory firm. We provide
             strategic direction and business counsel based on the analysis of market insights,
             competitive dynamics, changing technologies and regulatory shifts.
           </p>

@@ -1,6 +1,6 @@
 export const company = {
-  name: 'DATAGENIUS',
-  since: 2013,
+  name: 'FUTURIS',
+  since: 2009,
   phone: '+243 973 980 353',
   phoneHref: '+243973980353',
   email: 'contact@data-genius.com',
@@ -18,10 +18,10 @@ export const nav = [
 ]
 
 export const stats = [
-  { value: '2013', label: 'Year founded' },
-  { value: '3', label: 'Core areas of expertise' },
-  { value: '5', label: 'Consulting modules' },
-  { value: '100%', label: 'Independent firm' },
+  { value: '2009', label: 'Year founded' },
+  { value: '29+', label: 'African markets' },
+  { value: '200+', label: 'Projects delivered' },
+  { value: '15+', label: 'Years of experience' },
 ]
 
 export const services = [
@@ -132,6 +132,36 @@ export const consulting = [
   { icon: 'target', title: 'Size opportunities', text: 'Identify cluster-specific opportunities based on specific trends, and size them based on the positioning of competitive products.' },
   { icon: 'users', title: 'Customer profiling & Segmentation', text: 'Develop a segmentation strategy by clustering clients according to customer behavior and value, aimed at tailored propositions. Apply specific methodologies to consumer and commercial clientele.' },
   { icon: 'shield', title: 'Regulatory landscape', text: 'Read the regulatory framework and its changes to anticipate constraints and identify cluster-specific opportunities.' },
+]
+
+export const story = [
+  'Founded in 2009, FUTURIS was born from the conviction that data-driven insights can revolutionize industry practices. We combine technical expertise, strategic vision and a human-centric approach to deliver sustainable, high-impact research.',
+  'Our multidisciplinary team of consultants, field agents and analysts works closely with clients at every step, from initial brief and proposal to fieldwork, quality control and final reporting, to ensure excellence and speed in every project.',
+  'Today, we’re proud to be the go-to research partner for leading organizations across Africa, helping them make informed decisions that drive growth and innovation.',
+]
+
+export const impact = [
+  { value: '29+', label: 'African markets' },
+  { value: '3,685', label: 'Field agents' },
+  { value: '76', label: 'Supervisors' },
+  { value: '11', label: 'Qualitative moderators' },
+  { value: '200+', label: 'Projects delivered' },
+  { value: '15+', label: 'Years of experience' },
+]
+
+export const values = [
+  { icon: 'star', title: 'Excellence', text: 'We strive for excellence in every project, upholding the highest quality standards.' },
+  { icon: 'users', title: 'Collaboration', text: 'We work hand-in-hand with our clients to deliver optimal results.' },
+  { icon: 'radar', title: 'Innovation', text: 'We embrace cutting-edge technologies and methodologies to stay at the forefront.' },
+  { icon: 'shield', title: 'Integrity', text: 'We maintain transparency and fairness in all our engagements.' },
+]
+
+export const offices = [
+  { type: 'HQ', country: 'South Africa', city: 'Bryanston, Johannesburg', address: '57th Sloane Street, Bryanston, 2191', est: 2009 },
+  { type: 'Regional', country: 'Democratic Republic of Congo', city: 'Kinshasa', address: 'Gombe District', est: 2012 },
+  { type: 'Regional', country: 'Central African Republic', city: 'Bangui', address: 'Central Business District', est: 2015 },
+  { type: 'Regional', country: 'Republic of Congo', city: 'Brazzaville', address: 'Centre-ville', est: 2018 },
+  { type: 'Regional', country: 'Chad', city: 'N’Djamena', address: 'Quartier des Affaires' },
 ]
 
 export const process = [

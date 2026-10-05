@@ -30,7 +30,7 @@ export default function Header() {
   return (
     <header className={`header ${scrolled ? 'header--scrolled' : ''}`}>
       <div className="container header__inner">
-        <a href="#accueil" aria-label="DATAGENIUS — home">
+        <a href="#accueil" aria-label="FUTURIS — home">
           <Logo />
         </a>
         <nav className={`nav ${open ? 'nav--open' : ''}`} aria-label="Main navigation">

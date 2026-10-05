@@ -8,7 +8,7 @@ export default function Logo({ light = false }) {
         <rect x="21" y="6" width="4" height="19" rx="1" fill="#14b8a6" />
       </svg>
       <span>
-        DATA<b>GENIUS</b>
+        FUTU<b>RIS</b>
       </span>
     </span>
   )
