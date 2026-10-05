@@ -1,10 +1,10 @@
 export const company = {
   name: 'FUTURIS',
   since: 2009,
-  phone: '+243 973 980 353',
-  phoneHref: '+243973980353',
-  email: 'contact@data-genius.com',
-  address: ['888 Av. Plateau, Gombe', 'Kinshasa, DRC'],
+  phone: '+27 76 152 5291',
+  phoneHref: '+27761525291',
+  email: 'contact@futuris-group.com',
+  address: ['17 Eaton Avenue, Bryanston', 'Johannesburg, Gauteng, 2191'],
 }
 
 export const nav = [
