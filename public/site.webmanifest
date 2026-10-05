@@ -1,0 +1,8 @@
+{
+  "name": "FUTURIS",
+  "short_name": "FUTURIS",
+  "icons": [{ "src": "/apple-touch-icon.png", "sizes": "180x180", "type": "image/png" }],
+  "theme_color": "#002bcc",
+  "background_color": "#ffffff",
+  "display": "browser"
+}
