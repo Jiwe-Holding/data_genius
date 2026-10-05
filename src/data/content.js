@@ -12,6 +12,7 @@ export const nav = [
   { id: 'apropos', label: 'About' },
   { id: 'qualitatif', label: 'Qualitative' },
   { id: 'quantitatif', label: 'Quantitative' },
+  { id: 'etudes', label: 'Studies' },
   { id: 'conseil', label: 'Consulting & Strategy' },
   { id: 'contact', label: 'Contact' },
 ]
@@ -106,6 +107,23 @@ export const facilities = [
       'Online chatting platform to communicate with the moderator',
     ],
   },
+]
+
+export const studies = [
+  { icon: 'tag', title: 'Brand & Pricing Studies', text: 'Strategic brand positioning and pricing optimization for maximum market impact. Includes Brand Equity Analysis, Price Sensitivity Studies and Market Positioning Research.' },
+  { icon: 'bag', title: 'Mystery Shopping', text: 'Insights drawn from real customer experiences. Mystery shopping helps organizations measure their service level.' },
+  { icon: 'smile', title: 'Customer Satisfaction', text: 'Find out what customers think about your organization and measure their expectations.' },
+  { icon: 'heart', title: 'Employee Satisfaction', text: 'Understand employees’ expectations and whether they are happy, content and fulfilled in their needs at work.' },
+  { icon: 'chart', title: 'Usage & Attitude Study', text: 'Understand a market and identify customer usage of, and attitudes toward, products and services.' },
+  { icon: 'megaphone', title: 'Communication Research', text: 'Assess the effectiveness of your organization’s communication and understand how customers respond to it.' },
+  { icon: 'star', title: 'Brand Research', text: 'Measure brand health and uncover threats and opportunities from customer insight. Brand research supports the creation, development and strengthening of brands.' },
+  { icon: 'box', title: 'Product Research', text: 'Understand customer needs toward products: new product development, product improvement, testing new features, test marketing, revitalizing a declining product and more.' },
+  { icon: 'scale', title: 'Pricing Research', text: 'Measure the acceptability of a product’s price and determine the maximum price for new products.' },
+  { icon: 'radar', title: 'Competitor Intelligence', text: 'Gather and analyze relevant market information to support decisions on market opportunities, penetration strategy and market development.' },
+  { icon: 'globe', title: 'Social Research', text: 'Understand social dynamics, cultural trends and community behaviors to inform strategic decision-making and social impact initiatives.' },
+  { icon: 'target', title: 'Market Sizing', text: 'Comprehensive analysis to determine market volume, potential and growth opportunities across segments and regions.' },
+  { icon: 'pie', title: 'Segmentation', text: 'Identify and analyze distinct customer groups to develop targeted strategies and personalized approaches for each market segment.' },
+  { icon: 'mask', title: 'Brand Archetype', text: 'Define brand personality and archetypal positioning to create authentic connections with target audiences and stand out from competitors.' },
 ]
 
 export const consulting = [

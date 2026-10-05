@@ -74,6 +74,7 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
 .header--scrolled .nav__cta { background: var(--navy-900); color: #fff !important; }
 .burger { display: none; background: none; border: 0; color: #fff; cursor: pointer; padding: .4rem; }
 .header--scrolled .burger { color: var(--navy-900); }
+@media (max-width: 1180px) { .nav { gap: 1.1rem; } .nav a:not(.btn) { font-size: .9rem; } }
 
 /* ---------- Hero ---------- */
 .hero {
