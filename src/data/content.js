@@ -1,86 +1,90 @@
 export const company = {
-  name: 'FUTURIS',
-  since: 2009,
-  phone: '+27 76 152 5291',
-  phoneHref: '+27761525291',
-  email: 'contact@futuris-group.com',
-  address: ['17 Eaton Avenue, Bryanston', 'Johannesburg, Gauteng, 2191'],
+  name: 'DATAGENIUS',
+  since: 2013,
+  phone: '+243 973 980 353',
+  phoneHref: '+243973980353',
+  email: 'contact@data-genius.com',
+  address: ['888 Av. Plateau, Gombe', 'Kinshasa, DRC'],
 }
 
 export const nav = [
-  { id: 'accueil', label: 'Home' },
-  { id: 'apropos', label: 'About' },
-  { id: 'qualitatif', label: 'Qualitative' },
-  { id: 'quantitatif', label: 'Quantitative' },
-  { id: 'etudes', label: 'Studies' },
-  { id: 'conseil', label: 'Consulting & Strategy' },
-  { id: 'contact', label: 'Contact' },
+  { id: 'expertise', label: 'Expertise' },
+  { id: 'qualitative', label: 'Qualitative' },
+  { id: 'quantitative', label: 'Quantitative' },
+  { id: 'consulting', label: 'Consulting & Strategy' },
+  { id: 'about', label: 'About' },
 ]
+
+export const heroPoints = ['Field interviews', 'CATI surveys', 'Focus groups', 'Multivariate analysis']
 
 export const stats = [
-  { value: '2009', label: 'Year founded' },
-  { value: '29+', label: 'African markets' },
-  { value: '200+', label: 'Projects delivered' },
-  { value: '15+', label: 'Years of experience' },
+  { value: '2013', label: 'Year founded' },
+  { value: '3', label: 'Practices: qualitative, quantitative, consulting' },
+  { value: '6–12', label: 'Participants per focus group' },
+  { value: '100%', label: 'Independent' },
 ]
 
-export const services = [
+export const expertise = [
   {
     icon: 'chart',
+    tag: 'Quantitative',
     title: 'Quantitative research',
-    text: 'Higher order statistical analysis, multivariate analysis, CATI surveys and large-scale field data collection.',
-    anchor: 'quantitatif',
+    text: 'Higher-order statistical analysis, multivariate analysis, CATI surveys and large-scale field data collection.',
+    anchor: 'quantitative',
   },
   {
     icon: 'users',
+    tag: 'Qualitative',
     title: 'Qualitative research',
     text: 'All forms, including SILO, creative thought-shops, qualitative diaries, semiotic analysis, ethnography and more.',
-    anchor: 'qualitatif',
+    anchor: 'qualitative',
   },
   {
     icon: 'radar',
-    title: 'Market monitoring',
-    text: 'Monitor the market and its trends, know what your competitors are doing, and what your trade feels and pushes.',
-    anchor: 'conseil',
+    tag: 'Monitoring',
+    title: 'Market & competitor monitoring',
+    anchor: 'consulting',
+    bullets: [
+      'Monitor the market and its trends',
+      'Know what your competitors are doing and how they cope with a specific issue',
+      'Know what your trade feels and pushes',
+      'Know how competition handles trade: margins, relationships and more',
+    ],
   },
-]
-
-export const quantitative = [
-  { icon: 'phone', title: 'CATI surveys', text: 'Computer-assisted telephone interviews with real-time quality control.' },
-  { icon: 'pin', title: 'Field interviews', text: 'Face-to-face surveys on tablets, geolocated and supervised.' },
-  { icon: 'chart', title: 'Statistical analysis', text: 'Higher order statistics, multivariate analysis, segmentation and modelling.' },
-  { icon: 'radar', title: 'Market tracking', text: 'Barometers and dashboards to track your indicators over time.' },
 ]
 
 export const qualitative = [
   {
     id: 'focus',
-    label: 'Focus Groups',
-    how: 'A small number of participants (6-12) from within the company target market are brought together and led through discussions of important company and brand topics by a moderator.',
+    label: 'Focus groups',
+    icon: 'users',
+    how: 'A small number of participants (6–12) from within the company’s target market are brought together and led by a moderator through discussions of important company and brand topics.',
     why: [
       'To get open and complete perspectives on the brand or product.',
-      'To gain insights about the way the group views the brand, product, related images, slogans, concepts or symbols.',
+      'To gain insights into the way the group views the brand, product, related images, slogans, concepts or symbols.',
     ],
   },
   {
     id: 'idi',
-    label: 'In-Depth Interviews',
-    how: 'Face-to-face interview using a discussion guide which facilitates the flushing out of the respondent’s views through open-ended questioning.',
+    label: 'In-depth interviews',
+    icon: 'mic',
+    how: 'Face-to-face interviews using a discussion guide that draws out the respondent’s views through open-ended questioning.',
     why: [
-      'To get detailed information about a person’s thoughts and behaviors.',
+      'To get detailed information about a person’s thoughts and behaviours.',
       'To explore new issues in depth.',
-      'When potential participants may not be comfortable talking openly in a group, or when you want to distinguish individual views from group views.',
+      'When participants may not be comfortable talking openly in a group, or when you want to distinguish individual views from group views.',
     ],
   },
   {
     id: 'desk',
-    label: 'Desk Research',
-    how: 'Drawing on online resources, call centers, national statistics offices and existing social and marketing research.',
+    label: 'Desk research',
+    icon: 'book',
+    how: 'Drawing on online resources, call centres, national statistics offices and previously conducted social and marketing research.',
     why: [
-      'To perform competitive analysis of a product portfolio.',
-      'To develop a new product presentation strategy on the local market.',
-      'To design a strategy for product usage in a foreign market.',
-      'To explore the unmet requirements of various products and find competitive advantage.',
+      'To perform a competitive analysis of a product portfolio.',
+      'To develop a presentation strategy for a new product on the local market.',
+      'To design a product usage strategy for a foreign market.',
+      'To explore the unmet requirements of various products and find a competitive advantage.',
     ],
   },
 ]
@@ -88,80 +92,102 @@ export const qualitative = [
 export const facilities = [
   {
     title: 'Technology',
+    icon: 'monitor',
     items: [
-      'Dual monitor set-up for respondent use and simultaneous client viewing for usability testing',
-      'Focus Vision video streaming for off-site viewing of focus groups, mini-groups, IDIs, etc.',
-      'Wall-mounted camera, mic and speakers',
+      'Dual-monitor set-up for respondent use and simultaneous client viewing for usability testing',
+      'FocusVision video streaming for off-site viewing of focus groups, mini-groups, IDIs and more',
+      'Wall-mounted camera, microphones and speakers',
       'Projector and TV monitors',
       'Tablet to communicate with the moderator',
-      'Tablets for respondents (when needing to fill forms)',
+      'Tablets for respondents (when filling in forms)',
     ],
   },
   {
     title: 'Client',
+    icon: 'eye',
     items: [
       'Tiered, comfortable client viewing room for up to 6 guests',
-      'Double pane glass for ultimate soundproofing',
-      'Internet',
+      'Double-pane glass for ultimate soundproofing',
+      'Internet access',
       'Headphone translation',
-      'Online chatting platform to communicate with the moderator',
+      'Online chat platform to communicate with the moderator',
     ],
   },
 ]
 
-export const studies = [
-  { icon: 'tag', title: 'Brand & Pricing Studies', text: 'Strategic brand positioning and pricing optimization for maximum market impact. Includes Brand Equity Analysis, Price Sensitivity Studies and Market Positioning Research.' },
-  { icon: 'bag', title: 'Mystery Shopping', text: 'Insights drawn from real customer experiences. Mystery shopping helps organizations measure their service level.' },
-  { icon: 'smile', title: 'Customer Satisfaction', text: 'Find out what customers think about your organization and measure their expectations.' },
-  { icon: 'heart', title: 'Employee Satisfaction', text: 'Understand employees’ expectations and whether they are happy, content and fulfilled in their needs at work.' },
-  { icon: 'chart', title: 'Usage & Attitude Study', text: 'Understand a market and identify customer usage of, and attitudes toward, products and services.' },
-  { icon: 'megaphone', title: 'Communication Research', text: 'Assess the effectiveness of your organization’s communication and understand how customers respond to it.' },
-  { icon: 'star', title: 'Brand Research', text: 'Measure brand health and uncover threats and opportunities from customer insight. Brand research supports the creation, development and strengthening of brands.' },
-  { icon: 'box', title: 'Product Research', text: 'Understand customer needs toward products: new product development, product improvement, testing new features, test marketing, revitalizing a declining product and more.' },
-  { icon: 'scale', title: 'Pricing Research', text: 'Measure the acceptability of a product’s price and determine the maximum price for new products.' },
-  { icon: 'radar', title: 'Competitor Intelligence', text: 'Gather and analyze relevant market information to support decisions on market opportunities, penetration strategy and market development.' },
-  { icon: 'globe', title: 'Social Research', text: 'Understand social dynamics, cultural trends and community behaviors to inform strategic decision-making and social impact initiatives.' },
-  { icon: 'target', title: 'Market Sizing', text: 'Comprehensive analysis to determine market volume, potential and growth opportunities across segments and regions.' },
-  { icon: 'pie', title: 'Segmentation', text: 'Identify and analyze distinct customer groups to develop targeted strategies and personalized approaches for each market segment.' },
-  { icon: 'mask', title: 'Brand Archetype', text: 'Define brand personality and archetypal positioning to create authentic connections with target audiences and stand out from competitors.' },
+export const quantitative = [
+  {
+    icon: 'phone',
+    title: 'CATI surveys',
+    text: 'Computer-assisted telephone interviewing with real-time quality control and supervisor monitoring.',
+  },
+  {
+    icon: 'pin',
+    title: 'Field interviews (CAPI)',
+    text: 'Face-to-face, tablet-based surveys with households, retail outlets and trade spots.',
+  },
+  {
+    icon: 'chart',
+    title: 'Statistical analysis',
+    text: 'Higher-order statistics, multivariate analysis, segmentation, modelling and cross-tabulation.',
+  },
+  {
+    icon: 'radar',
+    title: 'Tracking & barometers',
+    text: 'Recurring measurement and dashboards to track your indicators over time.',
+  },
+]
+
+export const capi = [
+  { icon: 'store', title: 'Multi-source aggregation', text: 'Aggregates information from different markets, shops and trade spots.' },
+  { icon: 'pin', title: 'GPS traces', text: 'Traces and checks the places and shops visited by each interviewer.' },
+  { icon: 'camera', title: 'Photo evidence', text: 'Pictures uploaded from the places and shops visited.' },
+  { icon: 'clock', title: 'Interview length', text: 'Length indicator to control the pace of each interview.' },
+  { icon: 'bolt', title: 'Fast transfer', text: 'Collected data is transferred quickly to the client.' },
+  { icon: 'file', title: 'Flexible exports', text: 'Data delivered in the client’s preferred format: PDF, Excel, Access.' },
 ]
 
 export const consulting = [
-  { icon: 'globe', title: 'Market overview', text: 'In-depth analysis of trends, customer behavior and product innovation based on up-to-date market data and target interviews. Develop market insights and strategic directions backed by market intelligence.' },
-  { icon: 'scale', title: 'Benchmark & Gap analysis', text: 'Analyze competitors’ offerings related to features, user experience, pricing and other key elements of the value proposition. Perform gap analysis and optimize product positioning.' },
-  { icon: 'target', title: 'Size opportunities', text: 'Identify cluster-specific opportunities based on specific trends, and size them based on the positioning of competitive products.' },
-  { icon: 'users', title: 'Customer profiling & Segmentation', text: 'Develop a segmentation strategy by clustering clients according to customer behavior and value, aimed at tailored propositions. Apply specific methodologies to consumer and commercial clientele.' },
-  { icon: 'shield', title: 'Regulatory landscape', text: 'Read the regulatory framework and its changes to anticipate constraints and identify cluster-specific opportunities.' },
-]
-
-export const story = [
-  'Founded in 2009, FUTURIS was born from the conviction that data-driven insights can revolutionize industry practices. We combine technical expertise, strategic vision and a human-centric approach to deliver sustainable, high-impact research.',
-  'Our multidisciplinary team of consultants, field agents and analysts works closely with clients at every step, from initial brief and proposal to fieldwork, quality control and final reporting, to ensure excellence and speed in every project.',
-  'Today, we’re proud to be the go-to research partner for leading organizations across Africa, helping them make informed decisions that drive growth and innovation.',
-]
-
-export const impact = [
-  { value: '29+', label: 'African markets' },
-  { value: '3,685', label: 'Field agents' },
-  { value: '76', label: 'Supervisors' },
-  { value: '11', label: 'Qualitative moderators' },
-  { value: '200+', label: 'Projects delivered' },
-  { value: '15+', label: 'Years of experience' },
-]
-
-export const values = [
-  { icon: 'star', title: 'Excellence', text: 'We strive for excellence in every project, upholding the highest quality standards.' },
-  { icon: 'users', title: 'Collaboration', text: 'We work hand-in-hand with our clients to deliver optimal results.' },
-  { icon: 'radar', title: 'Innovation', text: 'We embrace cutting-edge technologies and methodologies to stay at the forefront.' },
-  { icon: 'shield', title: 'Integrity', text: 'We maintain transparency and fairness in all our engagements.' },
-]
-
-export const offices = [
-  { type: 'HQ', country: 'South Africa', city: 'Bryanston, Johannesburg', address: '57th Sloane Street, Bryanston, 2191', est: 2009 },
-  { type: 'Regional', country: 'Democratic Republic of Congo', city: 'Kinshasa', address: 'Gombe District', est: 2012 },
-  { type: 'Regional', country: 'Central African Republic', city: 'Bangui', address: 'Central Business District', est: 2015 },
-  { type: 'Regional', country: 'Republic of Congo', city: 'Brazzaville', address: 'Centre-ville', est: 2018 },
-  { type: 'Regional', country: 'Chad', city: 'N’Djamena', address: 'Quartier des Affaires' },
+  {
+    icon: 'globe',
+    title: 'Market overview',
+    points: [
+      'In-depth analysis of trends, customer behaviour and product innovation based on up-to-date market data and target interviews.',
+      'Develop market insights and strategic directions backed by market intelligence.',
+    ],
+  },
+  {
+    icon: 'scale',
+    title: 'Benchmark & gap analysis',
+    points: [
+      'Analyse competitors’ offerings: features, user experience, pricing and other key elements of the value proposition.',
+      'Perform gap analysis and optimise product positioning.',
+    ],
+  },
+  {
+    icon: 'target',
+    title: 'Size opportunities',
+    points: [
+      'Identify cluster-specific opportunities based on specific trends.',
+      'Size opportunities based on the positioning of competitive products.',
+    ],
+  },
+  {
+    icon: 'pie',
+    title: 'Customer profiling & segmentation',
+    points: [
+      'Develop a segmentation strategy by clustering clients according to customer behaviour and value, aimed at tailored propositions.',
+      'Apply specific methodologies to consumer and commercial clientele.',
+    ],
+  },
+  {
+    icon: 'shield',
+    title: 'Regulatory landscape',
+    points: [
+      'Read the regulatory framework and its changes to anticipate constraints.',
+      'Identify the opportunities these changes open up.',
+    ],
+  },
 ]
 
 export const process = [
@@ -170,3 +196,18 @@ export const process = [
   { n: '03', title: 'Analysis', text: 'Statistical processing and expert reading of results.' },
   { n: '04', title: 'Recommendations', text: 'Clear, innovative and actionable decisions.' },
 ]
+
+export const about = {
+  lead: 'DATAGENIUS is a highly respected independent management advisory firm, founded in 2013.',
+  body: [
+    'We provide strategic direction and business counsel based on the analysis of market insights, competitive dynamics, changing technologies and regulatory shifts.',
+    'DATAGENIUS brings together a team of experts in strategy, market analysis and research, technology and regulatory issues, able to provide comprehensive support through innovative, effective and actionable recommendations.',
+    'The expertise of our professionals, combined with true passion, dedication and attention to detail, makes our services unique.',
+  ],
+  pillars: [
+    { icon: 'target', title: 'Strategy' },
+    { icon: 'chart', title: 'Market analysis' },
+    { icon: 'monitor', title: 'Technology' },
+    { icon: 'shield', title: 'Regulation' },
+  ],
+}
