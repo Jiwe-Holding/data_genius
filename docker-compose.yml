@@ -1,0 +1,9 @@
+# Runs the image published to the registry. Site is exposed on port 5182.
+# IMAGE is set by the CI/CD deploy step (e.g. ghcr.io/jiwe-holding/data_genius:<sha>).
+services:
+  web:
+    image: ${IMAGE:-ghcr.io/jiwe-holding/data_genius:latest}
+    container_name: data-genius
+    restart: unless-stopped
+    ports:
+      - "5182:80"
